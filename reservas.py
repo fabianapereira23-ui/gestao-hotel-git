@@ -7,3 +7,7 @@ def criar_reserva(nome_cliente):
 def listar_reservas():
     for reserva in reservas:
         print(reserva)
+
+def cancelar_reserva(nome):
+    reservas.remove(nome)
+    print("Reserva cancelada.")
